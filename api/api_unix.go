@@ -9,7 +9,7 @@
 package api
 
 // #cgo darwin LDFLAGS: -lodbc
-// #cgo linux LDFLAGS: -L${SRCDIR}/../clibs/libs -lodbc -lltdl -ldl
+// #cgo linux LDFLAGS: -L${SRCDIR}/../clibs/linux/libs -lodbc -lltdl -ldl
 // #cgo linux CFLAGS: -I${SRCDIR}/../clibs/include
 // #cgo freebsd LDFLAGS: -L /usr/local/lib -lodbc
 // #cgo freebsd CFLAGS: -I/usr/local/include
